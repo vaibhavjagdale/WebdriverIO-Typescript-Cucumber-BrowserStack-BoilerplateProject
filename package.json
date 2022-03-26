@@ -1,6 +1,6 @@
 {
   "name": "webdriverio-cucumber-typescript-browserstack",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,15 @@
     "lint": "eslint -c .eslintrc.js --ext .ts,.js e2e",
     "lint-fix": "eslint --fix -c .eslintrc.js --ext .ts,.js e2e"
   },
-  "keywords": [],
+  "keywords": [
+    "automated-testing",
+    "framework",
+    "webdriverio",
+    "cucumber",
+    "typescript",
+    "browserstack",
+    "chai"
+  ],
   "author": "Vaibhav Jagdale",
   "license": "ISC",
   "dependencies": {
