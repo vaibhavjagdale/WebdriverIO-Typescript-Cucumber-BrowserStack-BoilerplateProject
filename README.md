@@ -1,7 +1,6 @@
 # WebdriverIO UI Automation with Cucumber+TypeScript+BrowserStack
 
 ![Alt text](https://www.fleekitsolutions.com/wp-content/uploads/2020/04/webdriverio.png)
-![Alt text](https://www.pngkit.com/png/detail/223-2232011_cucumber-jvm-for-java-cucumber-testing-logo.png) 
 ![Alttext](https://getlogovector.com/wp-content/uploads/2020/10/browserstack-logo-vector.png)
 
 Create a powerful boilerplate for UI Automation test with WebdriverIO and Cucumber+TypeScript+BrowserStack
