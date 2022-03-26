@@ -1,0 +1,22 @@
+# loggers
+*.log
+
+#project dependencies
+node_modules
+.temp
+target
+hiptest/*.xml
+#vs code settings
+.vscode/
+.env
+
+# downloaded files
+features/
+logs/
+coverage/
+
+# allure
+reports/
+allure-results/
+json/
+/*.dio

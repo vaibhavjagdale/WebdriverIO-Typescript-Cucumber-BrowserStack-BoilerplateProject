@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+        "types": [
+            "node",
+            "@wdio/cucumber-framework",
+            "webdriverio/async",
+            "expect-webdriverio",
+        ],
+        "downlevelIteration": true,
+        "target": "es6",
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "noUnusedLocals": true,
+        "inlineSourceMap": true,
+        "removeComments": false,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./dist",   
+        "lib": [
+          "es5",
+          "es6"
+        ],
+        "resolveJsonModule": true,
+        "skipLibCheck": true
+     },
+     "include": ["e2e/**/*.ts", "e2e/**/*.js", ".eslintrc.js","**/*.json","./*.json","**/**/*.json", "README.md"],
+     "exclude": [
+      "node_modules",
+      "dist",
+      "package-lock.json"
+  ]  
+}
+  

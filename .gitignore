@@ -1,0 +1,14 @@
+# loggers
+*.log
+
+#project dependencies
+node_modules
+.temp
+target
+dist
+logs
+
+#vs code settings
+.vscode/
+.env
+
