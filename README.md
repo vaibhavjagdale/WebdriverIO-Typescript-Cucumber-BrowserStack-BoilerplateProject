@@ -1,5 +1,9 @@
 # WebdriverIO UI Automation with Cucumber+TypeScript+BrowserStack
-![Alt text](https://getlogovector.com/wp-content/uploads/2020/10/browserstack-logo-vector.png)
+
+![Alt text](https://www.fleekitsolutions.com/wp-content/uploads/2020/04/webdriverio.png)
+![Alt text](https://www.pngkit.com/png/detail/223-2232011_cucumber-jvm-for-java-cucumber-testing-logo.png) 
+![Alttext](https://getlogovector.com/wp-content/uploads/2020/10/browserstack-logo-vector.png)
+
 Create a powerful boilerplate for UI Automation test with WebdriverIO and Cucumber+TypeScript+BrowserStack
 ## Features
 - Integration of WebdriverIO+Cucumber+TypeScript+BrowserStack in single project
@@ -32,9 +36,8 @@ Add below extensions to the VS code
 
 ## Environment file configuration
 
- use .env file for BASE_URL and BrowserStack credentils
+ use .env file for BrowserStack credentils
  ```
- BASE_URL=
 BROWSERSTACK_KEY=
 BROWSERSTACK_USER=
 ```
