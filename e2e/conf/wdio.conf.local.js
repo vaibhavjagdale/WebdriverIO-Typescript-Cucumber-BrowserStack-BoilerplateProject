@@ -1,5 +1,3 @@
-/* eslint-disable */
-require('dotenv').config();
 
 exports.config = {
   specs: ['./features/*.feature'],
@@ -9,7 +7,7 @@ exports.config = {
   }],
   logLevel:'silent',
   bail: 0,
-  baseUrl: process.env.BASE_URL,
+  baseUrl:'https://demo.nopcommerce.com/',
   waitforTimeout: 45000,
   connectionRetryCount: 3,
   framework: 'cucumber',
