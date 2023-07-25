@@ -3,9 +3,11 @@ name: Manual Trigger Workflow
 # configure manual trigger
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '15 23 25 7 *'
 
 jobs:
-  build:
+  UAT Tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
