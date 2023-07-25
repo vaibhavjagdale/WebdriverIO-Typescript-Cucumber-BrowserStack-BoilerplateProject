@@ -13,3 +13,4 @@ jobs:
       - name: Build project
         run: |
           npm install
+          npm audit fix
