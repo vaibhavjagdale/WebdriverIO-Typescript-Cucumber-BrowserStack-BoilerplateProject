@@ -11,11 +11,11 @@ on:
     - cron: '*/5 * * * *'
   
 jobs:
-  build:
+  UAT-Tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Build project
+      - name: Test
         run: |
           npm install
