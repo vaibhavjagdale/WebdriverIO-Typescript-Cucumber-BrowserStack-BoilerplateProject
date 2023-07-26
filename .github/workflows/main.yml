@@ -5,10 +5,10 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'main'
+     - 'main'
   schedule:
-      - cron: '00 9 * * *'
-
+  - cron: '*/5 * * * *'
+  
 jobs:
   build:
     runs-on: ubuntu-latest
