@@ -4,8 +4,9 @@ name: Manual Trigger Workflow
 on:
   workflow_dispatch:
   push:
-    branches:
-      - 'main'  
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]  
   schedule: ## Schedule the job to run at 12.am daily.
     - cron: '*/5 * * * *'
   
